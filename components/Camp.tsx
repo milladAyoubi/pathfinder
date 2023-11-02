@@ -23,7 +23,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
         </div>
         <div className="flex flex-col gap-1">
           <h4 className="bold-18 text-white">{title}</h4>
-          <p className="regular-14 text-white">{subtitle}</p>
+          <p className="regular-14 text-white/60">{subtitle}</p>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
             />
           ))}
         </span>
-        <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
+        <p className="bold-16 text-white/80">{peopleJoined}</p>
       </div>
      </div>
     </div>
@@ -53,9 +53,9 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
-          peopleJoined="50+ Joined"
+          title="Muskoka Cliffs"
+          subtitle="Muskoka, Ontario"
+          peopleJoined="250+ Campers"
         />
         <CampSite 
           backgroundImage="bg-bg-img-2"

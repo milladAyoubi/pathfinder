@@ -7,14 +7,11 @@ const Hero = () => {
       <div className="hero-map" />
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        <Image 
-          src="/camp.svg"
-          alt="camp"
-          width={50}
-          height={50}
-          className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
-        />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+       
+      <p className=" regular-18 -mt-1 mb-4 text-green-50 bg-green-50/10 rounded-full px-6 py-2 w-[290px]">
+          Your Next Adventure Awaits
+        </p>
+        <h1 className="bold-52 lg:bold-68">Find Your <span className='text-[#30AF5B]'>Path</span> With Us</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
         </p>
@@ -61,7 +58,7 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">Muskoka Cliffs</p>
           </div>
 
           <div className="flexBetween">
